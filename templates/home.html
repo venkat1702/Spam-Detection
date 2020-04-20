@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<h1 ><strong>sD</strong></h2>
+		
+	</header>
+		<form > 
+		<div class="container">
+		<h3 style="text-align: end; font-size: 40px; margin-bottom: 1px; margin-right: 23px; color:rgba(139, 0, 0, 0.514); ">Spam Filter</h3>
+		<p style="font-size: 18px; color:darkslategrey;">
+			Spam filter is a service feature designed to block unsolicited junk. 
+			Because of a large amount of global messages/emails are spam, 
+			effective spam filters are very useful  to give a
+			 clean and spam-free inboxes to users.
+		</p>
+
+		</div>
+		</form>
+		<div class="container">
+		<form action="{{ url_for('demo')}}" method="POST" style="text-align: end;">
+		<input type="submit" class="btn-info" value="demo" >
+		</form>
+		</div>
+</body>
+</html>
