@@ -5,6 +5,10 @@ sD is a spam filter made using python and sklearn and deployed using flask
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies
+## Technologies used
+- Flask
+- Pandas
+- sklearn
 
 ```bash
 pip install requirements.txt
