@@ -225,13 +225,13 @@ h1, h2, h4, h5, h6 {
   margin-top: 10px;
 
 }
+
 .card {
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
   margin-top: 30px;
-  width: 30%;
-  
+  width: 30%;  
 }
 
 
