@@ -71,9 +71,17 @@
       </div>
       <div > 
         {% if prediction == 1%}
-        <h3 style="color:rgb(255, 255, 255); font-size: 15px;" class="spam", >Seem's like a Spam</h3>
+        <div class="form-group">
+          <div class="card bg-danger text-white">
+            <div class="card-body">Seem's like a Spam </div>
+          </div>
+        </div>
         {% elif prediction == 0%}
-        <h2 style="color:rgb(255, 255, 255); font-size: 15px;" class="nspam">Yay! Not a Spam</h2>
+        <div class="form-group">
+          <div class="card bg-success text-white">
+            <div class="card-body">Yay! Not a Spam</div>
+          </div>
+        </div>
         {% endif %}
       </div>
       
