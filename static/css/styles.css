@@ -225,23 +225,13 @@ h1, h2, h4, h5, h6 {
   margin-top: 10px;
 
 }
-.spam{
-	background-color: rgb(253, 0, 0);
-  width: 150px;
-  margin-top: 20px;
-  margin-left: 45%;
-  padding: 25px;
-	text-align: center;
-	
-}
-
-.nspam{
-	background-color: rgb(11, 255, 44);
-  width: 150px;
-  margin-top: 20px;
-  margin-left: 45%;
-  padding: 25px;
-	text-align: center;
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  margin-top: 30px;
+  width: 30%;
+  
 }
 
 
