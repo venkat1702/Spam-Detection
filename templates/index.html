@@ -63,11 +63,11 @@
     <section id="about">
      
     <form action="/predict", method="POST", style="text-align: center;">
-			<textarea class="form-group" name="comment" rows="15" cols="30%"  required="true" placeholder="Enter the text here.......">{{comment1}}</textarea>
+	<textarea id="myInput" class="form-group" name="comment" rows="15" cols="30%"  required="true" placeholder="Enter the text here.......">{{comment1}}</textarea>
       <br/>
       <div class="btn-m">
-			<input type="submit" class="btn-D" value="predict" >
-      <input type="reset" value="Clear"  class="btn-D"> 
+	<input type="submit" class="btn-D" value="predict" >
+      <button class="btn-D" onclick="document.getElementById('myInput').value = ''">Clear</button>
       </div>
       <div > 
         {% if prediction == 1%}
