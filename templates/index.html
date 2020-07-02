@@ -15,6 +15,7 @@
 
   <!-- Bootstrap CSS File -->
   <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <!-- Libraries CSS Files -->
   <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -62,7 +63,7 @@
     <section id="about">
      
     <form action="/predict", method="POST", style="text-align: center;">
-			<textarea name="comment" rows="6" cols="50" required="true" placeholder="Enter the text here......." style="height: 314px;margin-left : 50px;">{{comment1}}</textarea>
+			<textarea class="form-group" name="comment" rows="15" cols="40%"  required="true" placeholder="Enter the text here.......">{{comment1}}</textarea>
       <br/>
       <div class="btn-m">
 			<input type="submit" class="btn-D" value="predict" >
