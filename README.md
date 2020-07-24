@@ -21,7 +21,7 @@ python3 app.py
 ```
 ## Demo
 
-![test image size](/gif/demo.gif)
+![test image size](/gif/final.mp4)
 
 
 You can check the website here: https://sd-spam.herokuapp.com/
