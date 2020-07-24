@@ -20,6 +20,11 @@ To run sD in your local host: http://127.0.0.1:5000/
 python3 app.py
 ```
 ## Demo
+
+![test image size](/gif/demo.gif)
+
+
+
 You can check the demo :https://sd-spam.herokuapp.com/
 
 
