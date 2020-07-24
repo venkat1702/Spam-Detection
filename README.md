@@ -24,8 +24,7 @@ python3 app.py
 ![test image size](/gif/demo.gif)
 
 
-
-You can check the demo :https://sd-spam.herokuapp.com/
+You can check the website here: https://sd-spam.herokuapp.com/
 
 
 
